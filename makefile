@@ -16,7 +16,7 @@ TARGET = firmware
 FP_FLAGS	?= -mfloat-abi=hard -mfpu=fpv4-sp-d16
 ARCH_FLAGS	= -mthumb -mcpu=cortex-m4
 
-DEFS 		+= -DSTM32 -DSTM32F4
+DEFS 		+= -DSTM32 -DSTM32F4 -DSTM32F446xx
 ######################################
 # Linkerscript
 
